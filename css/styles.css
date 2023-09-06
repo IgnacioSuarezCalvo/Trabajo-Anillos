@@ -1,0 +1,161 @@
+/*  Estilos Globales*/
+
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-family: 'Lora', sans-serif;
+    color: #333;
+    background-color: #f0EAF6;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000; /* Fondo gris oscuro */
+    padding: 10px 0;
+}
+
+.navbar-content {
+    width: 900px; /* Ancho del rectángulo del navbar */
+    margin: 0 auto; /* Centrar el contenido del navbar horizontalmente */
+    background-color: #000; /* Fondo gris claro dentro del rectángulo */
+    padding: 10px;
+    border-radius: 5px; /* Borde redondeado */
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #00a3cc; /* Color celeste para los enlaces */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #777; /* Color gris cuando el mouse está sobre el enlace */
+}
+
+/* Estilo para el enlace de la página actual */
+a.current {
+    color: #777; /* Color gris para el enlace de la página actual */
+}
+
+
+
+header {
+    margin: 30px 0 40px 0;
+}
+
+h1 {
+    font-family: 'Lora' , sans-serif;
+    font-size: 40px;
+}
+
+.icon-cart {
+    width: 10px;
+    height: 10px;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Estilos para el borde de las tarjetas */
+
+
+/* Estilos al pasar el ratón sobre las tarjetas */
+.item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra al pasar el ratón */
+    transform: scale(1.02); /* Escalado al pasar el ratón */
+}
+
+.item {
+    border: 0.5px #777 solid; /* Borde de 1px sólido negro */
+    border-radius: 10px; /* Borde redondeado para suavizar los bordes */
+    transition: all 0.3s ease; /* Transición para suavizar el cambio al pasar el ratón */
+}
+
+
+
+
+
+
+/*  Main */
+
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.item{
+    border-radius: 10px;
+    
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.20);
+
+}
+
+
+.item img {
+    width: 100%;
+    height: 230px; /* Cambia este valor según tus necesidades */
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all 0.7s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price{
+   
+    font-size: 18px;
+    font-weight: 900;
+
+}
+
+.info-product button {
+border: none;
+background: none;
+background-color: #000;
+color: #fff;
+padding: 15px 10px;
+cursor: pointer;
+
+}
