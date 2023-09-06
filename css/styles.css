@@ -2,10 +2,10 @@
 
 *::after,
 *::before,
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box; /* Corregir esta propiedad */
 }
 
 body {
@@ -16,8 +16,9 @@ body {
     margin: 0;
     font-family: 'Lora', sans-serif;
     color: #333;
-    background-color: #f0EAF6;
+    background-color: #f0EAF6; /* Cambia este color a violeta (#8A2BE2) o el tono de violeta que prefieras */
 }
+
 nav {
     position: fixed;
     top: 0;
@@ -159,3 +160,25 @@ padding: 15px 10px;
 cursor: pointer;
 
 }
+
+/* Estilos para el contenido de información en el lado derecho */
+.info {
+    padding: 30px; /* Ajusta el relleno según tus preferencias */
+    line-height: 2;
+    text-align: center;
+    
+}
+
+.titulo{
+
+    text-align: center;
+    font-family: 'Lora' , sans-serif;
+    font-size: 30px;
+
+}
+
+.hr{
+    color: #000;
+    ;border: #000 ;
+}
+
