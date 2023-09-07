@@ -44,16 +44,15 @@ img{
 }
 
 
-/* Estilos al pasar el ratón sobre las tarjetas */
 .item:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra al pasar el ratón */
-    transform: scale(1.02); /* Escalado al pasar el ratón */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.02);
 }
 
 .item {
-    border: 0.5px grey solid; /* Borde de 1px sólido negro */
-    border-radius: 10px; /* Borde redondeado para suavizar los bordes */
-    transition: all 0.3s ease; /* Transición para suavizar el cambio al pasar el ratón */
+    border: 0.5px grey solid; 
+    border-radius: 10px;
+    transition: all 0.3s ease; 
 }
 
 /*  Main */
@@ -76,7 +75,7 @@ img{
 
 .item img {
     width: 100%;
-    height: 170px; /* Cambia este valor según tus necesidades */
+    height: 170px; 
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     transition: all 0.7s;
@@ -106,9 +105,9 @@ cursor: pointer;
 
 }
 
-/* Estilos para el contenido de información en el lado derecho */
+
 .info {
-    padding: 30px; /* Ajusta el relleno según tus preferencias */
+    padding: 30px; 
     line-height: 2;
     text-align: left;
     
@@ -134,24 +133,14 @@ cursor: pointer;
 
 /* Estilos  Carrousel Index*/
 
-.mainIndex{
-    background-color: red;
-}
+
 .contenedor__card{
-    display: flex;
-    flex-direction: row;
+    
+    
     padding-top: 2%;    
 }
 
-.card{
-    display: flex;
-    min-width: 0;
-    height: 100%;
-    word-wrap: break-word;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem;
-}  
+
 /*------------*/
 
 /* Estilos  Footer*/
@@ -167,7 +156,21 @@ footer{
 
 .FooterIcono{
     font-size: 40px;
-    color: grey;
+    
     text-decoration: none;
 }
+
+.whatsapp {
+
+    color: green;
+}
+
+.instagram{
+    
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;     
+}
 /*------------*/
+
