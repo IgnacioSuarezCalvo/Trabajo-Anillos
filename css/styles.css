@@ -30,12 +30,13 @@ li {
 }
 
 header {
-    margin: 30px 0 30px 0;
+    margin: 15px 0 10px 0;
 }
 
 h1 {
     font-family: 'Lora' , sans-serif;
-    font-size: 30px;
+    font-size: 55px;
+    margin-top: 3%;
 }
 
 img{
@@ -50,7 +51,7 @@ img{
 }
 
 .item {
-    border: 0.5px #777 solid; /* Borde de 1px sólido negro */
+    border: 0.5px grey solid; /* Borde de 1px sólido negro */
     border-radius: 10px; /* Borde redondeado para suavizar los bordes */
     transition: all 0.3s ease; /* Transición para suavizar el cambio al pasar el ratón */
 }
@@ -60,7 +61,7 @@ img{
 .container-items{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 15px;
+    gap: 55px;
 }
 
 .item{
@@ -126,6 +127,10 @@ cursor: pointer;
     border: #000 ;
 }
 
+.btnC{
+    height: 100%;
+    width: 5%;
+}
 
 /* Estilos  Carrousel Index*/
 
@@ -162,7 +167,7 @@ footer{
 
 .FooterIcono{
     font-size: 40px;
-    color: darkcyan;
+    color: grey;
     text-decoration: none;
 }
 /*------------*/
