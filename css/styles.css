@@ -105,21 +105,32 @@ cursor: pointer;
 
 }
 
+.titulo{
+    text-align: center;
+    padding: 20px;
+
+}
 
 .info {
-    padding: 30px; 
+    padding: 20px; 
     line-height: 2;
-    text-align: left;
+    text-align: center;
+    text-decoration: double;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 20px;
+
+    
     
 }
 
-.titulo{
+.tituloContacto{
 
-    text-align: center;
     font-family: 'Lora' , sans-serif;
-    font-size: 30px;
-
+    font-size: 40px;
+    
+    text-align: center;
 }
+
 
 .hr{
     color: #000;
@@ -174,3 +185,8 @@ footer{
 }
 /*------------*/
 
+.mapa{
+
+    
+    text-align: center;
+}
