@@ -190,3 +190,9 @@ footer{
     
     text-align: center;
 }
+
+.imgSobrenosotros {
+    float: left; /* Coloca la imagen en el lado izquierdo */
+    width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+    margin-right: 20px; /* Espacio entre la imagen y el contenido */
+}
